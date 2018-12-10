@@ -31,6 +31,7 @@ div.app-title {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+/* Account Icon */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -45,6 +46,17 @@ div.app-title {
   padding: 12px 16px;
   z-index: 1;
 }
+
+a:hover {
+  color: red;
+}
+
+.account-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.account-content a:hover {background-color: #ddd}
 
 .dropdown:hover .account-content {
   display: block;
