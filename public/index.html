@@ -1,118 +1,126 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags hello-->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/portal.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title>Cummins Employee Portal</title>
-    <link rel="icon" type="image/ico" href="img/cummins_logo.png">
-  </head>
-  <body>
-    <nav class="navbar">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/cummins_logo_white.png" style="width:120px;">
-      </a>
-      <h1 class="header-portal" >Employee Portal</h1>
-      <div class="dropdown">
-        <img class="invert" height="75px" src="img/userLogo.png">
-          <div class="account-content">
-            <p align="center">Tom Linebarger</p>
-            <a align="center" href="account.html">Account Settings</a>
-            <a align="center" href="login.html">Sign Out</a>
-          </div>
-</div>
-    </nav>
 
-    <main id="portal" class="container-fluid">
-      <div class="row app-title">
-        <h2>
-          Favorites
-        </h2>
+<head>
+  <!-- Required meta tags hello-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/portal.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>Cummins Employee Portal</title>
+  <link rel="icon" type="image/ico" href="img/cummins_logo.png">
+</head>
+
+<body>
+  <nav class="navbar">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/cummins_logo_white.png" style="width:120px;">
+    </a>
+    <h1 class="header-portal">Employee Portal</h1>
+    <div class="dropdown">
+      <img class="invert" height="75px" src="img/userLogo.png">
+      <div class="account-content">
+        <p align="center">Tom Linebarger</p>
+        <a align="center" href="account.html">Account Settings</a>
+        <a align="center" href="login.html">Sign Out</a>
       </div>
-      <div class="row visible"></div>
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/connectedDiag.jpg">
-            <div><h4>Connected Diagnostics</h4>
-            <p>The lifeline of your engine</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/guidanz.jpg">
-            <div><h4>Guidanz</h4>
-            <p>The lifeline of your engine</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/quickservee.png">
-            <div><h4>Quickserve</h4>
-            <p>Service or repair your engine</p>
-            </div>
-          </div>
+    </div>
+  </nav>
+
+  <main id="portal" class="container-fluid">
+    <div class="row app-title">
+      <h2>
+        Favorites
+      </h2>
+    </div>
+    <div class="row visible"></div>
+    <div class="row">
+      <div class="clearfix float-my-children">
+        <img src="img/connectedDiag.jpg" width="100">
+        <div>
+          <h4>Connected Diagnostics</h4>
+          <p>The lifeline of your engine</p>
         </div>
       </div>
-      <div class="row app-title">
-        <h2>
-          Recently Used
-        </h2>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/guidanz.jpg">
+        <div>
+          <h4>Guidanz</h4>
+          <p>The lifeline of your engine</p>
+        </div>
       </div>
-      <div class="row visible"></div>
-      <div class="row">
-        <div class="clearfix float-my-children">
+    </div>
+    <div class="col">
+      <div class="card">
+        <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/quickservee.png">
+        <div>
+          <h4>Quickserve</h4>
+          <p>Service or repair your engine</p>
+        </div>
+      </div>
+    </div>
+    <div class="row app-title">
+      <h2>
+        Recently Used
+      </h2>
+    </div>
+    <div class="row visible"></div>
+    <div class="row">
+      <div class="clearfix float-my-children">
         <img src="img/connectedDiagnostics.png" width="100">
-   <div>some text here</div>
+        <div>some text here</div>
       </div>
-      </div>
-      <div class="row app-title">
-        <h2>
-          All Apps
-        </h2>
-      </div>
-      <div class="row visible"></div>
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/connectedDiagnostics.png">
-            <div><h4>Connected Diagnostics</h4>
+    </div>
+    <div class="row app-title">
+      <h2>
+        All Apps
+      </h2>
+    </div>
+    <div class="row visible"></div>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/connectedDiagnostics.png">
+          <div>
+            <h4>Connected Diagnostics</h4>
             <p>The lifeline of your engine</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/connectedDiagnostics.png">
-            <div><h4>Connected Diagnostics</h4>
-            <p>The lifeline of your engine</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/connectedDiagnostics.png">
-            <div><h4>Connected Diagnostics</h4>
-            <p>The lifeline of your engine</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/connectedDiagnostics.png">
-            <div><h4>Connected Diagnostics</h4>
-            <p>The lifeline of your engine</p>
-            </div>
           </div>
         </div>
       </div>
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/connectedDiagnostics.png">
+          <div>
+            <h4>Connected Diagnostics</h4>
+            <p>The lifeline of your engine</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/connectedDiagnostics.png">
+          <div>
+            <h4>Connected Diagnostics</h4>
+            <p>The lifeline of your engine</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" style="border-bottom:1px solid lightgrey" src="img/connectedDiagnostics.png">
+          <div>
+            <h4>Connected Diagnostics</h4>
+            <p>The lifeline of your engine</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    </main>
-  </body>
+  </main>
+</body>
+
 </html>
