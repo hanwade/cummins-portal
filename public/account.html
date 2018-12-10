@@ -1,42 +1,33 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-<title>Cummins Login Portal</title>
-<link rel="icon" type="image/ico" href="img/cummins_logo.png">
-
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="css/login.css">
-<!-- Include the above in your HEAD tag -->
+    <!-- Required meta tags hello-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/portal.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Cummins Employee Portal</title>
+    <link rel="icon" type="image/ico" href="img/cummins_logo.png">
   </head>
-<body id="LoginForm">
-      <img src="img/cummins_logo_white.png" style="width:120px;">
-<div class="container">
-<div class="login-form">
-<div class="main-div">
-    <div class="panel">
-   <h2>Employee Login</h2>
-   <p>Please enter your email and password</p>
-   </div>
-    <form action="index.html" id="Login">
-        <div class="form-group">
-            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
-        </div>
-        <div class="form-group">
-            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-        </div>
-        <div class="forgot">
-        <a href="reset.html">Forgot password?</a>
+  <body>
+    <nav class="navbar">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/cummins_logo_white.png" style="width:120px;">
+      </a>
+      <h1 class="header-portal" >Employee Portal</h1>
+      <div class="dropdown">
+        <img class="invert" height="75px" src="img/userLogo.png">
+          <div class="account-content">
+            <p align="center">Tom Linebarger</p>
+            <a align="center" href="index.html">Application Portal</a>
+            <a align="center" href="login.html">Sign Out</a>
+          </div>
 </div>
-<button onclick="index.html" type="submit" class="btn btn-primary">Login</button>
+    </nav>
 
-    </form>
-    </div>
-<!--Designed by Sunil Rajput-->
-</div>
-</div>
-
-
-</body>
+    <main>
+    </main>
+  </body>
 </html>
