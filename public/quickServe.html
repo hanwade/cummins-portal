@@ -37,7 +37,7 @@
     <div class="row justify-content-sm-center" style="margin-left:0px;">
       <h3>Enter your Engine Serial Number (ESN).</h3>
     </div>
-    <div class="row justify-content-sm-center">
+    <div class="row justify-content-sm-center" style="margin:10px;">
       <div class="col-5">
         <input type="text" class="form-control" id="inputESN" placeholder="Engine Serial Number">
       </div>
@@ -46,13 +46,11 @@
       </div>
     </div>
     <div class="row justify-content-sm-center">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-      <label class="form-check-label" for="defaultCheck1">
-        Save this ESN
+      <label class="pure-material-checkbox" style="margin-top:10px;">
+        <input type="checkbox">
+        <span>Save this ESN</span>
       </label>
     </div>
-  </div>
     <div class="row justify-content-sm-center">
       <h2>OR</h2>
     </div>
@@ -60,17 +58,18 @@
       <h3>Select a saved ESN below:</h3>
     </div>
     <div class="row justify-content-sm-center">
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="ESN1" value="option1">
-        <label class="form-check-label" for="inlineRadio1">44433892</label>
+
+      <div class="md-radio">
+        <input id="1" type="radio" name="g" checked>
+        <label for="1">44433892</label>
       </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="ESN2" value="option1">
-        <label class="form-check-label" for="inlineRadio1">46926790</label>
+      <div class="md-radio">
+        <input id="2" type="radio" name="g">
+        <label for="2">46926790</label>
       </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="ESN3" value="option1">
-        <label class="form-check-label" for="inlineRadio1">73094302</label>
+      <div class="md-radio">
+        <input id="3" type="radio" name="g">
+        <label for="3">46926790</label>
       </div>
     </div>
     <div class="row justify-content-sm-center">
@@ -78,6 +77,7 @@
         <input class="btn btn-primary" type="reset" value="Search">
       </div>
     </div>
+
 
 
     <!--
@@ -88,9 +88,6 @@
       <button class="tablinks" onclick="openCity(event, 'information')">Information (3)</button>
       <button class="tablinks" onclick="openCity(event, 'okay')">OK (6)</button>
     </div> -->
-
-
-
 
 
 
