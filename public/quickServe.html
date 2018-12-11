@@ -28,86 +28,43 @@
       <img class="invert" height="75px" src="img/userLogo.png">
       <div class="account-content">
         <p align="center">Tom Linebarger</p>
+        <a align="center" href="account.html">Account Settings</a>
         <a align="center" href="index.html">Application Portal</a>
         <a align="center" href="login.html">Sign Out</a>
       </div>
     </div>
   </nav>
-  <main>
-    <div style="margin-left:15px;">
-    <h2>Engine Serial Number</h2>
-  </div>
-  <div style="margin-left:15px;">
-    <h4>Enter your Engine Serial Number (ESN) or take a picture of your dataplate. </h4>
-  </div>
-    <div class="row" style="margin:15px;" >
+  <main class="container-fluid">
+    <div class="container">
+    <div class="row">
+      <h4>Enter your Engine Serial Number (ESN).</h4>
+    </div>
+    <div class="row">
       <div class="col-5">
-        <input type="text" class="form-control" id="inputESN" placeholder="Engine Service Number">
+        <input type="text" class="form-control" id="inputESN" placeholder="ESN">
       </div>
       <div class="help-tip">
-        <p>This is the inline help tip! It can contain all kinds of HTML. Style it as you please.</p>
+        <p>Find your ESN on the top right corner of your engine dataplate.</p>
       </div>
     </div>
-    <!-- Tab links -->
+    <div class="row">
+      <input class="btn btn-primary" type="reset" value="Search">
+    </div>
+  </div>
+    <!--
     <div class="tab">
       <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'stopnow')">Stop Now (7)</button>
       <button class="tablinks" onclick="openCity(event, 'servicenow')">Service Now (9)</button>
       <button class="tablinks" onclick="openCity(event, 'servicesoon')">Service Soon (6)</button>
       <button class="tablinks" onclick="openCity(event, 'information')">Information (3)</button>
       <button class="tablinks" onclick="openCity(event, 'okay')">OK (6)</button>
-    </div>
-    <!-- Tab content -->
-    <div id="stopnow" class="tabcontent">
-      <div class="header">
-        <img src="img/question.png" alt="logo" title="Ensure equipment is in a safe location and shut down your engine. Contact a Cummins certified repair location for immediate repair assistance. The timestamp here represents the most sever fault occurence." />
-        <h3>Stop Now</h3>
-      </div>
-      <div class="row visible"></div>
-      <div class="row">
-        <div class="col">
-          <img width="100px" src="img/truck-front.png">
-        </div>
-        <div class="col">
-        </div>
-        <div class="col">
-        </div>
-        <div class="col">
-        </div>
-      </div>
+    </div> -->
 
-    </div>
 
-    <div id="servicenow" class="tabcontent">
-      <div class="header">
-        <img src="img/question.png" alt="logo" title="Ensure equipment is in a safe location and shut down your engine. Contact a Cummins certified repair location for immediate repair assistance. The timestamp here represents the most sever fault occurence." />
-        <h3>Service Now</h3>
-      </div>
-      <p>Paris is the capital of France.</p>
-    </div>
 
-    <div id="servicesoon" class="tabcontent">
-      <div class="header">
-        <img src="img/question.png" alt="logo" title="Ensure equipment is in a safe location and shut down your engine. Contact a Cummins certified repair location for immediate repair assistance. The timestamp here represents the most sever fault occurence." />
-        <h3>Service Soon</h3>
-      </div>
-      <p>Tokyo is the capital of Japan.</p>
-    </div>
 
-    <div id="information" class="tabcontent">
-      <div class="header">
-        <img src="img/question.png" alt="logo" title="Ensure equipment is in a safe location and shut down your engine. Contact a Cummins certified repair location for immediate repair assistance. The timestamp here represents the most sever fault occurence." />
-        <h3>Information</h3>
-      </div>
-      <p>Tokyo is the capital of Japan.</p>
-    </div>
 
-    <div id="okay" class="tabcontent">
-      <div class="header">
-        <img src="img/question.png" alt="logo" title="Ensure equipment is in a safe location and shut down your engine. Contact a Cummins certified repair location for immediate repair assistance. The timestamp here represents the most sever fault occurence." />
-        <h3>OK</h3>
-      </div>
-      <p>Tokyo is the capital of Japan.</p>
-    </div>
+
 
   </main>
   <script>
