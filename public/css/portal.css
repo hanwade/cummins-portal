@@ -19,7 +19,15 @@ div.app-title {
   margin-left: 1px;
 }
 
-
+body {
+  background: #f0f0f0;
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
 
 
 /* Account Icon */
