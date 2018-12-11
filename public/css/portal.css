@@ -19,19 +19,8 @@ div.app-title {
   margin-left: 1px;
 }
 
-.card {
-  margin-left: 3px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border-radius: 5px;
-  text-align: center;
-  max-width: 140px;
-  height: 275px;
-}
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
+
 
 /* Account Icon */
 .dropdown {
