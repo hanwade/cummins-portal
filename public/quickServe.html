@@ -34,20 +34,52 @@
     </div>
   </nav>
   <main class="container-fluid">
-    <div class="row" style="margin-left:0px;">
-      <h4>Enter your Engine Serial Number (ESN).</h4>
+    <div class="row justify-content-sm-center" style="margin-left:0px;">
+      <h3>Enter your Engine Serial Number (ESN).</h3>
     </div>
-    <div class="row">
+    <div class="row justify-content-sm-center">
       <div class="col-5">
-        <input type="text" class="form-control" id="inputESN" placeholder="ESN">
+        <input type="text" class="form-control" id="inputESN" placeholder="Engine Serial Number">
       </div>
       <div class="help-tip">
         <p>Find your ESN on the top right corner of your engine dataplate.</p>
       </div>
     </div>
-    <div class="row">
-      <input class="btn btn-primary" type="reset" value="Search">
+    <div class="row justify-content-sm-center">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        Save this ESN
+      </label>
     </div>
+  </div>
+    <div class="row justify-content-sm-center">
+      <h2>OR</h2>
+    </div>
+    <div class="row justify-content-sm-center">
+      <h3>Select a saved ESN below:</h3>
+    </div>
+    <div class="row justify-content-sm-center">
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="ESN1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">44433892</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="ESN2" value="option1">
+        <label class="form-check-label" for="inlineRadio1">46926790</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="ESN3" value="option1">
+        <label class="form-check-label" for="inlineRadio1">73094302</label>
+      </div>
+    </div>
+    <div class="row justify-content-sm-center">
+      <div class="row" style="margin-top:10px;">
+        <input class="btn btn-primary" type="reset" value="Search">
+      </div>
+    </div>
+
+
     <!--
     <div class="tab">
       <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'stopnow')">Stop Now (7)</button>
