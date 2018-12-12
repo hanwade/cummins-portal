@@ -52,7 +52,6 @@
     </div>
     <!-- Stop Now content -->
     <div id="dataplate" class="tabcontent">
-      <div class="row"></div>
       <div class="row info">
         <div class="col">
           <h4>VIN</h4>
@@ -63,10 +62,10 @@
       </div>
       <div class="row info">
         <div class="col">
-          <h4>EPA Model</h4>
+          <h4>EPA Model Name</h4>
         </div>
         <div class="col">
-          <h4>N/A</h4>
+          <h4>ACEXH0540LAR</h4>
         </div>
       </div>
       <div class="row info">
@@ -106,7 +105,7 @@
           <h4>ECM Code</h4>
         </div>
         <div class="col">
-          <h4>N/A</h4>
+          <h4>CB90010</h4>
         </div>
       </div>
       <div class="row info">
@@ -122,7 +121,7 @@
           <h4>Fuel Pump Calibration #</h4>
         </div>
         <div class="col">
-          <h4>9999</h4>
+          <h4>4954361</h4>
         </div>
       </div>
       <div class="row info">
@@ -161,20 +160,65 @@
 
     <!-- fault code content -->
     <div id="faultCode" class="tabcontent">
-      <div class="row"></div>
-      <div class="row info">
-        <div class="col">
-          <h4>VIN</h4>
+      <div><h4>Enter active and inactive fault codes logged in the last 25 engine hours</h4></div>
+      <div class="row info" style="text-align:center;">
+        <div class="col-1">
+          <h4><strong>ID</strong></h4>
         </div>
-        <div class="col">
-          <h4>1FV6HFBA7VH702759</h4>
+        <div class="col-3">
+          <h4><strong>Fault Code Number</strong></h4>
+        </div>
+        <div class="col-8" style="margin-top:4px;">
+          <h4><strong>Fault Code Description</strong></h4>
+        </div>
+      </div>
+      <div class="row info" style="text-align:center;">
+        <div class="col-1">
+          <h4>1</h4>
+        </div>
+        <div class="col-3">
+          <h4>111</h4>
+        </div>
+        <div class="col-8" style="margin-top:4px;">
+          <h4>Engine Control Module Critical Internal Failure - Bad Intelligent Device or Component</h4>
+        </div>
+      </div>
+      <div class="row info" style="text-align:center;">
+        <div class="col-1">
+          <h4>2</h4>
+        </div>
+        <div class="col-3">
+          <h4>124</h4>
+        </div>
+        <div class="col-8" style="margin-top:4px;">
+          <h4>Intake Manifold 1 Pressure - Data Valid But Above Normal Operating Range - Moderately Severe Level</h4>
+        </div>
+      </div>
+      <div class="row info" style="text-align:center;">
+        <div class="col-1">
+          <h4>3</h4>
+        </div>
+        <div class="col-3">
+          <h4>559</h4>
+        </div>
+        <div class="col-8" style="margin-top:4px;">
+          <h4>Injector Metering Rail 1 Pressure - Data Valid But Below Normal Operating Range - Moderately Severe Level</h4>
+        </div>
+      </div>
+      <div class="row info" style="text-align:center;">
+        <div class="col-1">
+          <h4>+</h4>
+        </div>
+        <div class="col-3" style="margin-top:4px;">
+          <input type="text" class="form-control" id="newFaultCode" placeholder="Fault Code">
+        </div>
+        <div class="col-4" style="margin-top:4px;">
         </div>
       </div>
     </div>
 
-    <!-- fault code content -->
+    <!-- parts catalog content -->
     <div id="partsCatalog" class="tabcontent">
-      <div class="row"></div>
       <div class="row info">
         <div class="col">
           <h4>VIN</h4>
