@@ -74,10 +74,26 @@
     </div>
     <div class="row justify-content-sm-center">
       <div class="row" style="margin-top:10px;">
-        <a href="quickServeData.html"><input class="btn btn-primary" type="reset" value="Search"></a>
+        <input class="btn btn-primary" type="reset" value="Search">
       </div>
+    </div> 
+
+
+    <div class="tab">
+      <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'stopnow')">Stop Now (7)</button>
+      <button class="tablinks" onclick="openCity(event, 'servicenow')">Service Now (9)</button>
+      <button class="tablinks" onclick="openCity(event, 'servicesoon')">Service Soon (6)</button>
+      <button class="tablinks" onclick="openCity(event, 'information')">Information (3)</button>
+      <button class="tablinks" onclick="openCity(event, 'okay')">OK (6)</button>
     </div>
+
+
+
+
   </main>
+  <script>
+    document.getElementById("defaultOpen").click();
+  </script>
 </body>
 
 </html>
