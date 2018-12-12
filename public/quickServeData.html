@@ -34,61 +34,126 @@
     </div>
   </nav>
   <main class="container-fluid">
-    <div class="row justify-content-sm-center" style="margin-left:0px;">
-      <h3>Enter your Engine Serial Number (ESN).</h3>
-    </div>
-    <div class="row justify-content-sm-center" style="margin:10px;">
-      <div class="col-5">
-        <input type="text" class="form-control" id="inputESN" placeholder="Engine Serial Number">
-      </div>
-      <div class="help-tip">
-        <p>Find your ESN on the top right corner of your engine dataplate.</p>
-      </div>
-    </div>
-    <div class="row justify-content-sm-center">
-      <label class="pure-material-checkbox" style="margin-top:10px;">
-        <input type="checkbox">
-        <span>Save this ESN</span>
-      </label>
-    </div>
-    <div class="row justify-content-sm-center">
-      <h2>OR</h2>
-    </div>
-    <div class="row justify-content-sm-center">
-      <h3>Select a saved ESN below:</h3>
-    </div>
-    <div class="row justify-content-sm-center">
-
-      <div class="md-radio">
-        <input id="1" type="radio" name="g" checked>
-        <label for="1">44433892</label>
-      </div>
-      <div class="md-radio">
-        <input id="2" type="radio" name="g">
-        <label for="2">46926790</label>
-      </div>
-      <div class="md-radio">
-        <input id="3" type="radio" name="g">
-        <label for="3">46926790</label>
-      </div>
-    </div>
-    <div class="row justify-content-sm-center">
-      <div class="row" style="margin-top:10px;">
-        <input class="btn btn-primary" type="reset" value="Search">
-      </div>
-    </div> 
-
-
-    <div class="tab">
-      <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'stopnow')">Stop Now (7)</button>
-      <button class="tablinks" onclick="openCity(event, 'servicenow')">Service Now (9)</button>
-      <button class="tablinks" onclick="openCity(event, 'servicesoon')">Service Soon (6)</button>
-      <button class="tablinks" onclick="openCity(event, 'information')">Information (3)</button>
-      <button class="tablinks" onclick="openCity(event, 'okay')">OK (6)</button>
+    <div>
+      <h2>Results for ESN 73093402</h2>
     </div>
 
 
+    <div class="tab" style="background-color:white;">
 
+      <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'dataplate')">Dataplate</button>
+      <button class="tablinks" onclick="openCity(event, 'faultCode')">Fault Code</button>
+      <button class="tablinks" onclick="openCity(event, 'partsCatalog')">Parts Catalog</button>
+    </div>
+    <!-- Stop Now content -->
+    <div id="dataplate" class="tabcontent">
+      <div class="row"></div>
+
+      <div class="row">
+        <div class="col">
+          <h4>VIN</h4>
+        </div>
+        <div class="col">
+          <h4>1FV6HFBA7VH702759</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>EPA Model</h4>
+        </div>
+        <div class="col">
+          <h4>N/A</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Shop Order</h4>
+        </div>
+        <div class="col">
+          <h4>SO10576</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Build Plant</h4>
+        </div>
+        <div class="col">
+          <h4>NGE - Natural Gas Engines</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Build Date</h4>
+        </div>
+        <div class="col">
+          <h4>06 May 2010</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Warranty Start Date</h4>
+        </div>
+        <div class="col">
+          <h4>21 February 2011</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>ECM Code</h4>
+        </div>
+        <div class="col">
+          <h4>N/A</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Fuel Pump Part #</h4>
+        </div>
+        <div class="col">
+          <h4>3928150</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Fuel Pump Calibration #</h4>
+        </div>
+        <div class="col">
+          <h4>9999</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>CPL #</h4>
+        </div>
+        <div class="col">
+          <h4>CPL 1553</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Marketing Model Name</h4>
+        </div>
+        <div class="col">
+          <h4>G8.3</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Service Model Name</h4>
+        </div>
+        <div class="col">
+          <h4>6G5.9</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Engine Configuration</h4>
+        </div>
+        <div class="col">
+          <h4>D551013CX03</h4>
+        </div>
+      </div>
+    </div>
 
   </main>
   <script>
